@@ -1,0 +1,28 @@
+{
+    "name": "roberth_silva/plates",
+    "description": "Aula da disciplina ciencia da computacao 1, sobre o componente plates, que trabalha com templates",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roberth Silva",
+            "email": "roberth.silva@kroton.com.br"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+          "Source\\": "source/"
+        },
+        "files": [
+          "source/Config.php"
+        ]
+    },
+    "require": {
+        "php": "^7.3",
+        "ext-pdo": "*",
+        "coffeecode/datalayer": "1.1.*",
+        "coffeecode/router": "1.0.*",
+        "league/plates": "v4.0.0-alpha"
+    }
+}
